@@ -1,7 +1,7 @@
 package com.gmail.n3cr0f4nt4s14.manager.localization;
 
 /**
- * The interface for localizeable properties.
+ * The interface for localizable properties.
  * 
  * @since 0.1.0
  * @created 2022-05-13
