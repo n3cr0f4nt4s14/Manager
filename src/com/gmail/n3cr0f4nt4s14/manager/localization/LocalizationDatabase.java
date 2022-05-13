@@ -11,7 +11,7 @@ import java.util.Objects;
  * @updated 2022-05-13
  * @author Necrofantasia
  */
-public class LocalizationDatabase {
+public final class LocalizationDatabase {
 	/** The singleton LocalizationDatabase instance. */
 	public static final LocalizationDatabase INSTANCE = new LocalizationDatabase();
 	/** The default locale. */
