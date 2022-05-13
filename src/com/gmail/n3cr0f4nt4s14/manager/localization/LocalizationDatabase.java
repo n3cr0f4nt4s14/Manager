@@ -56,7 +56,7 @@ public final class LocalizationDatabase {
 	 * any impact.
 	 * 
 	 * @return the current locale
-	 * @see #setLocaleCurrent(Locale)
+	 * @see #update(Locale)
 	 */
 	public Locale getLocaleCurrent() {
 		return localeCurrent;
