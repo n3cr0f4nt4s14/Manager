@@ -10,10 +10,12 @@ package com.gmail.n3cr0f4nt4s14.manager.registry;
  */
 public interface IRegistryObject {
 	/**
-	 * Returns the id of this registry object.<br>
+	 * Returns the unique id of this registry object.<br>
 	 * Never null.
 	 * 
-	 * @return the id of this registry object
+	 * @return the unique id of this registry object
 	 */
-	String getRegistryId();
+	String getRegistryUID();
+	
+	//TODO: have changes may occur in this interface.
 }
