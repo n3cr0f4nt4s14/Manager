@@ -1,14 +1,16 @@
 package com.gmail.n3cr0f4nt4s14.manager.localization;
 
+import com.gmail.n3cr0f4nt4s14.manager.registry.IRegistryObject;
+
 /**
  * The interface for localizable objects.
  * 
  * @since 0.1.0
  * @created 2022-05-13
- * @updated 2022-05-13
+ * @updated 2022-05-16
  * @author Necrofantasia
  */
-public interface ILocalizableObject {
+public interface ILocalizableObject extends IRegistryObject {
 	/**
 	 * Returns the name of this localizable object.<br>
 	 * Never null, if an object is localizable it at least needs a name.
@@ -27,7 +29,7 @@ public interface ILocalizableObject {
 	String getDescription();
 	
 	/**
-	 * <b>Only to be called by TODO</b><br>
+	 * <b>Only to be called by {@link LocalizationDatabase}.</b><br>
 	 * <br>
 	 * When called it should update this object's name and description with
 	 * the new given values.
